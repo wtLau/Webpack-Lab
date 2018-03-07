@@ -1,0 +1,219 @@
+ .h3 {
+     border-bottom: 1px solid #eeeeee;
+     padding: 20px 0;
+ }
+ 
+ .h3 p {
+     margin-top: 10px;
+     margin: 15px;
+     font-size: 22.4px;
+     color: #434343;
+     text-align: left;
+ }
+ 
+ .aboutus-content-title-main {
+     text-align: left;
+ }
+ 
+ .aboutus-content-details-main {
+     text-align: left;
+ }
+ 
+ .aboutus-content-details-main p {
+     text-align: left;
+     margin-left: 15px;
+     color: #000;
+     font-weight: bold;
+ }
+ 
+ .yourOrder-info {
+     border-bottom: 1px solid #eeeeee;
+     padding: 20px 0;
+ }
+ 
+ .orders-products-container {
+     display: flex;
+     flex-flow: row wrap;
+     margin: 20px 0;
+ }
+ 
+ .orders-products-container p {
+     color: #333;
+     ;
+ }
+ 
+ .product-image {
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 120px;
+ }
+ 
+ .product-image img {
+     width: 100%;
+     max-height: 150px;
+ }
+ 
+ .single-product-info {
+     width: 30%;
+     text-align: left;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+ }
+ 
+ .single-product-info p {
+     margin-bottom: 7px;
+ }
+ 
+ .single-product-orderProcess {
+     width: 100%;
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .single-product-btn {
+     width: 100%;
+ }
+ 
+ .single-product-btn button,
+ .freeseemedia-order-submit-btn button {
+     background: #ff8b00;
+     width: 140px;
+     height: 40px;
+     color: white;
+     border: none;
+     font-weight: bold;
+     border-radius: 0;
+     max-width: 250px;
+     text-transform: uppercase;
+     transition: all 0.3s ease-out 0s;
+     float: right;
+ }
+ 
+ .single-product-btn button:hover {
+     color: #333;
+     text-decoration: none;
+ }
+ 
+ .productPrice {
+     color: #cb5b23;
+ }
+ 
+ .message-textarea {
+     height: 100px;
+     width: 100%;
+     margin: 15px;
+ }
+ /*****PROGRESS BAR*****/
+ 
+ .orders-products-container .yoorders-progressbar {
+     width: 100%;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+ }
+ 
+ .yoorders-progress {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: table;
+     table-layout: fixed;
+     width: 100%;
+     color: #849397;
+     background: transparent;
+     box-shadow: none;
+ }
+ 
+ .yoorders-progress>li {
+     position: relative;
+     display: table-cell;
+     text-align: center;
+     /*font-size: 0.8em;*/
+     font-size: 6px;
+ }
+ 
+ .yoorders-progress>li:before {
+     content: attr(data-step);
+     display: block;
+     margin: 0 auto;
+     background: #DFE3E4;
+     width: 3em;
+     height: 3em;
+     text-align: center;
+     margin-bottom: 0.25em;
+     line-height: 3em;
+     border-radius: 100%;
+     position: relative;
+     z-index: 1000;
+ }
+ 
+ .yoorders-progress>li:after {
+     content: '';
+     position: absolute;
+     display: block;
+     background: #DFE3E4;
+     width: 100%;
+     height: 0.5em;
+     top: 1.25em;
+     left: 50%;
+     margin-left: 1.5em;
+     z-index: 0;
+ }
+ 
+ .yoorders-progress>li:last-child:after {
+     display: none;
+ }
+ 
+ .yoorders-progress>li.is-complete {
+     color: #2ECC71;
+ }
+ 
+ .yoorders-progress>li.is-complete:before,
+ .yoorders-progress>li.is-complete:after {
+     /* color: #FFF; */
+     background: #2ECC71;
+ }
+ 
+ .yoorders-progress>li.is-active {
+     color: #3498DB;
+ }
+ 
+ .yoorders-progress>li.is-active:before {
+     color: #FFF;
+     background: #3498DB;
+ }
+ 
+ @media (min-width: 992px) {
+     .single-product-orderProcess {
+         width: 50%;
+     }
+     .orders-products-container .yoorders-progressbar {
+         width: 49%;
+     }
+ }
+ /* Loading Icon */
+ 
+ .ajaxloading {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 9999;
+ }
+ 
+ .ajaxloading-gif {
+     width: 50px;
+     margin: 25px 0;
+     height: 50px;
+ }
+ 
+ .please-wait p {
+     font-size: 20px;
+     color: black;
+     font-weight: bold;
+     margin-bottom: 150px;
+ }

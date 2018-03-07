@@ -1,0 +1,58 @@
+.customer-login-section {
+    margin: 90px 0;
+}
+
+.customer-login-div {
+    display: flex;
+    flex-flow: column;
+    border: 1px rgb(10, 160, 180) solid;
+    background-color: rgba(208, 226, 218, 0.7);
+    max-width: 339px;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.customer-login-div .h4 p {
+    font-size: 18px;
+}
+
+.customer-login-div .text-center p {
+    margin: 15px 0;
+    color: #434343
+}
+
+.h5 p{
+    font-size: 30px;
+    color: #434343;
+}
+.h4 p{
+    font-size: 24px;
+    color: #434343;
+}
+ 
+.bold {
+    font-weight: bold;
+}
+
+
+.section2 {
+     margin-bottom: 60px;
+     padding: 0 15px;
+}
+
+.section2 p {
+    margin-top: 1rem;
+    color: #434343;
+}
+
+.underline {
+    border-bottom: 1px solid #cacaca;
+}
+
+.section2-content {
+    padding: 0;
+}
+
+.orange {
+    color: #434343;
+}

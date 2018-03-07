@@ -1,0 +1,303 @@
+.hidden {
+    display: none;
+}
+
+.header {
+    transition: height 0.5s;
+}
+
+.header .header-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.sticky {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    z-index: 9999;
+    box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+}
+
+div.HeaderLogo {
+    width: 55%;
+    margin: 0;
+}
+
+.HeadLogo>a>img {
+    width: 100%
+}
+
+.header-hamburger {
+    width: 73%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.hamburgerIcon-main>a {
+    color: #fff;
+}
+
+.header-hamburger>p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.HeaderMenus {
+    order: 3;
+    background: #262626;
+    position: relative;
+    flex: 1 100%;
+}
+
+div.HeaderMenus>div.HeadMenus {
+    /*display: none;*/
+    flex-flow: column;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    padding: 10px 0 40px 0;
+}
+
+div.showMenu>div.HeadMenus {
+    background-color: #262626;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+div.HeaderMenus>div.HeadMenus div.submenuframe {
+    width: 100%;
+    order: 6;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    max-width: initial;
+    min-width: initial;
+    border: none;
+    /*display: none;*/
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition: all 0.3s ease 0s;
+}
+
+div.HeaderMenus>div.HeadMenus>div.showSubMenu div.submenuframe {
+    position: relative;
+    transform: scaleY(1);
+    visibility: visible;
+}
+
+div.HeaderMenus>div.HeadMenus>div>a {
+    padding: 6px 15px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+div.HeaderMenus>div.HeadMenus>div,
+div.HeaderMenus>div.HeadMenus div.submenuframe>div.SubMenu {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: left;
+    background: #f8f8f8 none repeat scroll 0 0;
+    font-weight: bold;
+    border-top: 1px solid#ddd;
+    min-width: inherit;
+    max-width: none;
+    padding: 0;
+}
+
+div.HeaderMenus>div.HeadMenus div.submenuframe>div.SubMenu {
+    width: 100%;
+}
+
+div.HeaderMenus>div.HeadMenus div.submenuframe>div.SubMenu:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+div.HeadMenus>div.HeadMenuItem>div.submenuframe>div.SubMenu>a {
+    opacity: 0.75;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+.HeaderIcon {
+    width: 20%;
+    order: 2;
+    height: 70px;
+    margin: 0
+}
+
+.icon-main {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.user {
+    display: none
+}
+
+div.HeaderMenus>div.HeadMenus>.HeadMenuItem>a:hover,
+div.HeadMenus>div.HeadMenuItem>div.submenuframe>div.SubMenu>a:hover {
+    color: #ff7f00;
+    text-decoration: none;
+    /*border: 1px solid #fff;*/
+}
+
+div.HeaderMenus>div.HeadMenus>.HeadMenuItem {
+    position: relative;
+}
+
+.fontAwesomeIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#_layFullpage {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .header {
+        height: 140px;
+        margin: 0 auto;
+    }
+    .header-wrapper {
+        height: 100%;
+    }
+    .HeaderIcon {
+        height: 100%;
+    }
+    .HeaderMenus {
+        flex: 1 auto;
+    }
+    .sticky {
+        height: 90px;
+    }
+    div.HeaderLogo {
+        width: 20%;
+    }
+    div.HeaderMenus {
+        order: 2;
+        width: 70%;
+        background: none;
+    }
+    .header-hamburger {
+        display: none;
+    }
+    div.HeaderMenus>div.HeadMenus {
+        position: relative;
+        padding: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        justify-content: center;
+        visibility: visible;
+        transform: scaleY(1);
+        background-color: #fff;
+    }
+    div.HeaderMenus>div.HeadMenus>div {
+        background: none;
+        border: none;
+        font-weight: normal;
+        position: relative;
+        margin: 0 10px;
+        width: auto;
+    }
+    div.HeaderMenus>div.HeadMenus>div>a {
+        width: 100%;
+        padding: 0 15px;
+    }
+    div.HeadMenus>div.HeadMenuItem>div.submenuframe>div.SubMenu>a {
+        width: unset;
+    }
+    .HeadMenuItem::after,
+    .SubMenu>a>span::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #ff7f00;
+        transition: width .6s;
+    }
+    .HeadMenuItem:hover::after,
+    .SubMenu>a>span:hover::after {
+        width: 100%;
+    }
+    div.HeaderMenus>div.HeadMenus>div.showSubMenu div.submenuframe {
+        position: absolute;
+        transform: scaleY(0);
+        visibility: hidden;
+    }
+    div.HeaderMenus>div.HeadMenus div.submenuframe {
+        max-width: 350px;
+        min-width: 260px;
+        background: #f2f2f2;
+        position: absolute;
+        z-index: 99999;
+        top: 26px;
+    }
+    div.HeaderMenus>div.HeadMenus>div.HeadMenuItem:hover div.submenuframe {
+        transform: scaleY(1);
+        visibility: visible;
+    }
+    .HeaderIcon {
+        width: 10%;
+    }
+    .HeadMenuItem .icon-plus,
+    .HeadMenuItem .icon-minus {
+        display: none;
+    }
+    .user {
+        display: flex;
+    }
+    .user>a {
+        border-right: #ff7f00 solid 1px;
+    }
+    .fontAwesomeIcon>div>a {
+        padding: 0 15px;
+        margin: 50px 0;
+    }
+    .HeadMenuItem .icon-minus {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .header>.header-wrapper {
+        width: 100%;
+    }
+    .header>.header-wrapper>.HeaderLogo {
+        width: 25%;
+    }
+}
+
+@media (max-width: 500px) {
+    .header>.header-wrapper>.HeaderLogo {
+        width: 40%;
+    }
+}

@@ -1,0 +1,208 @@
+.table-bordered thead {
+    display: none;
+}
+
+.about-section,
+.ticket-table,
+.table-bordered {
+    width: 100%;
+}
+
+.yotickets-product-row {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.table-bordered .yotickets-product-row td {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.order-number,
+.date-placed {
+    padding: 15px 0;
+}
+
+.show-for-phone {
+    padding-bottom: 10px;
+}
+
+.page-wrapper {
+    min-height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section {
+    margin: 40px 0;
+}
+
+.aboutus-content>div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.single-product-info {
+    height: 200px;
+}
+
+.single-product-info>div {
+    height: 100%;
+}
+
+.aboutus-content>div>.section1-content {
+    border: 1px solid #ddd;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.freeseemedia-customerservice-btn,
+.freeseemedia-tickets-submit-btn {
+    max-width: 350px;
+    align-self: flex-end;
+}
+
+.message-textarea {
+    height: 100px;
+    width: 100%;
+    margin: 15px;
+}
+
+.about-section button {
+    height: 40px;
+    background: #ff8b00;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: none;
+    margin: 15px 0;
+    padding: 0 15px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.about-section button:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.product-item-img {
+    width: 33%;
+    border: 1px solid #ddd;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-content-image-main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.orders-table-header {
+    height: 50px;
+}
+
+.yotickets-product {
+    min-width: 100px;
+}
+
+.yotickets-product .row {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.row-product-container {
+    padding: 15px 0
+}
+
+.orders-table-header th {
+    text-align: center;
+}
+
+@media (min-width: 760px) {
+    .table-bordered thead {
+        display: table-header-group;
+    }
+    .yotickets-product-row {
+        display: table-row;
+    }
+    .table-bordered .yotickets-product-row td {
+        display: table-cell;
+        width: initial;
+        text-align: center;
+    }
+    .yotickets-product .row {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .show-for-phone {
+        display: none;
+    }
+}
+
+
+/* customer review message */
+
+.review-message {
+    padding: 20px 0;
+    width: 100%;
+    color: #000000;
+}
+
+.review-message p {
+    color: #000000;
+}
+
+.customerService-message {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px 0;
+}
+
+.customer-message {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px 0;
+    background: #ddd;
+}
+
+.customerService-message-header,
+.customer-message-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.cs-message-body {
+    text-align: left;
+}

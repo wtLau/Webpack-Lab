@@ -1,0 +1,302 @@
+.footer-area {
+    background: #222222;
+    padding: 50px 0 15px 0;
+    color: #aebcb9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 100px;
+}
+
+.footer-area .heading {
+    color: #878787;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.footer-area .footer-info-menus {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-policy-container .footer-info-menus {
+    margin-right: 0px;
+}
+
+.footer-area .footerpolicys {
+    text-align: right;
+    margin-right: 0px;
+}
+
+.footer-area .footer-policy {
+    text-align: right;
+    padding-right: 3.5%;
+}
+
+.FooterCompany {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footerLegals {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.footer-text-legal {
+    color: #666;
+    margin: 0 5px;
+}
+
+.footer-legal-link {
+    margin: 0 5px;
+}
+
+.footer-legal-link>a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer-area .footer-padding {
+    padding-bottom: 165px !important;
+}
+
+.zmdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zmdi-twitter:before {
+    content: '\f360';
+}
+
+.zmdi-facebook:before {
+    content: '\f343';
+}
+
+.zmdi-instagram:before {
+    content: '\f34f';
+}
+
+.footer-policy-container {
+    text-align: right;
+    padding-right: 3.5%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin-right: 0px;
+    margin-top: 12px;
+}
+
+.footer-company-container {
+    text-align: right;
+    padding-right: 3.5%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin-right: 163px;
+    margin-top: 30px;
+}
+
+div.FooterMenus,
+div.FooterSocials,
+div.FooterCompany {
+    margin-top: 9px;
+    padding: 9px 12px;
+    display: table-cell;
+}
+
+div.FooterMenus>div.FootMenus {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.6;
+    display: table-cell;
+}
+
+div.FooterMenus>div.FootMenus>div {
+    min-width: 120px;
+    padding-left: 24px;
+    font-size: inherit;
+    text-align: left;
+}
+
+div.FooterMenus>div.FootMenus>div a {
+    display: block;
+    width: 120px;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #efefef;
+    border: 1px solid transparent;
+}
+
+div.FooterMenus>div.FootMenus div.submenuframe {
+    width: 120px;
+    padding-left: 24px;
+    border: 0px;
+}
+
+div.FooterMenus>div.FootMenus div.submenuframe>div.SubMenu {
+    display: block;
+    width: 120px;
+    padding: 0px 12px;
+    border: 0px;
+}
+
+div.freeseemedia-footer-social-container {
+    width: 20%;
+}
+
+div.freeseemedia-footer-social-container>div.FootSocials {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+div.freeseemedia-footer-social-container>div.FootSocials>div.FootSocial {
+    padding: 3px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+div.freeseemedia-footer-social-container>div.FootSocials>div.FootSocial>span {
+    font-size: 150%;
+    line-height: 1.5em;
+    padding: 3px;
+    display: block;
+    text-align: center;
+}
+
+.freeseemedia-footer-payment-container {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.payment {
+    margin-top: 23px;
+}
+
+.FootCompany>h5 {
+    color: #aebcb9;
+    font-weight: 800;
+    font-size: 120%;
+    white-space: nowrap;
+}
+
+.FootCompany .CompanyAddress {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div.footer-company-container>div.FootCompany>div.CompanyAddress {
+    margin: 3px;
+    padding: 3px;
+    display: table;
+}
+
+div.footer-company-container>div.FootCompany>div.CompanyAddress>* {
+    display: table-cell;
+}
+
+div.footer-company-container>div.FootCompany>div.CompanyAddress>span {
+    width: 160px;
+    text-align: right;
+    padding-right: 9px;
+}
+
+.footer-area>div.container>div.row>div.footer-info-menus {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-area>div.container>div.row>div.footer-info-menus .footer-info-menu {
+    margin-left: -23px;
+}
+
+.footer-area>div.container>div.footer-policy-container>div>div.footer-info-menus:before {
+    content: "|";
+}
+
+.footer-area>div.container>div.footer-policy-container>div>div.footer-info-menus:first-child:before {
+    content: "";
+}
+
+.customerservice-button button {
+    left: 0;
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+    position: fixed;
+    right: 0;
+    bottom: 28px;
+    z-index: 99999;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.28);
+    background-color: #e1273c;
+}
+
+@media (min-width: 992px) {
+    div.freeseemedia-footer-social-container {
+        width: 16%;
+    }
+    .customerservice-button button {
+        left: unset;
+        right: unset;
+    }
+}
+
+@media (max-width: 767px) {
+    .freeseemedia-footer-payment-container {
+        margin-bottom: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    div.freeseemedia-footer-social-container {
+        width: 50%;
+    }
+    .footer-info-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-info-container>.footer-info-menus {
+        margin-right: 0;
+    }
+    .freeseemedia-footer-social-container {
+        text-align: center;
+    }
+    .footer-policy-container {
+        text-align: center;
+    }
+    .footer-policy-container>div {
+        width: 100%;
+        text-align: center;
+    }
+    .FootCompany .CompanyAddress {
+        justify-content: center;
+    }
+    .footer-policy-container {
+        padding: 0;
+        margin: 0px;
+        margin-top 15px;
+    }
+}

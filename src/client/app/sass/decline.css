@@ -1,0 +1,23 @@
+
+.customer-login-section {
+    margin: 90px 0;
+}
+
+.customer-login-div {
+    display: flex;
+    flex-flow: column;
+    border: 1px rgb(10, 160, 180) solid;
+    background-color: rgba(208, 226, 218, 0.7);
+    max-width: 339px;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.customer-login-div .h4 p {
+    font-size: 18px;
+}
+
+.customer-login-div .text-center p {
+    margin: 15px 0;
+    color: #434343
+}
